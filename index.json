@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "name": "PromptHub",
+  "description": "Universal cross-platform prompt engineering resource hub",
+  "platforms": {
+    "international": [
+      {
+        "name": "OpenAI",
+        "models": ["GPT-4", "GPT-3.5", "GPT-4 Turbo"],
+        "directory": "international/openai",
+        "docs": "https://platform.openai.com/docs"
+      },
+      {
+        "name": "Google",
+        "models": ["Gemini Ultra", "Gemini Pro", "Gemini Flash"],
+        "directory": "international/google",
+        "docs": "https://ai.google.dev/gemini-api"
+      },
+      {
+        "name": "Microsoft",
+        "models": ["Copilot", "Azure OpenAI"],
+        "directory": "international/microsoft",
+        "docs": "https://learn.microsoft.com/en-us/copilot/"
+      },
+      {
+        "name": "Anthropic",
+        "models": ["Claude 3.5 Sonnet", "Claude 3 Opus", "Claude 3 Haiku"],
+        "directory": "international/anthropic",
+        "docs": "https://docs.anthropic.com/"
+      }
+    ],
+    "chinese": [
+      {
+        "name": "Baidu",
+        "models": ["ERNIE Bot", "Wenxin Qianfan"],
+        "directory": "chinese/baidu",
+        "docs": "https://cloud.baidu.com/doc/wenxinworkshop"
+      },
+      {
+        "name": "Alibaba",
+        "models": ["Qwen", "Tongyi Qianwen"],
+        "directory": "chinese/alibaba",
+        "docs": "https://help.aliyun.com/document_detail/243822.html"
+      },
+      {
+        "name": "Tencent",
+        "models": ["Hunyuan"],
+        "directory": "chinese/tencent",
+        "docs": "https://cloud.tencent.com/document/product/1729"
+      },
+      {
+        "name": "ByteDance",
+        "models": ["Doubao"],
+        "directory": "chinese/bytedance",
+        "docs": "https://console.volcengine.com/ark"
+      }
+    ]
+  },
+  "categories": [
+    "Development & Code",
+    "Writing & Content",
+    "Analysis & Research",
+    "Creative & Entertainment",
+    "Business & Professional"
+  ],
+  "opensource_collections": [
+    {
+      "name": "dair-ai/Prompt-Engineering-Guide",
+      "stars": 50000,
+      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
+    },
+    {
+      "name": "PlexPt/awesome-chatgpt-prompts-zh",
+      "stars": 50000,
+      "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
+    },
+    {
+      "name": "f/awesome-chatgpt-prompts",
+      "stars": 30000,
+      "url": "https://github.com/f/awesome-chatgpt-prompts"
+    },
+    {
+      "name": "promptslab/Awesome-Prompt-Engineering",
+      "stars": 5900,
+      "url": "https://github.com/promptslab/Awesome-Prompt-Engineering"
+    },
+    {
+      "name": "ai-boost/awesome-prompts",
+      "stars": 3200,
+      "url": "https://github.com/ai-boost/awesome-prompts"
+    },
+    {
+      "name": "langgptai/awesome-claude-prompts",
+      "stars": 5100,
+      "url": "https://github.com/langgptai/awesome-claude-prompts"
+    }
+  ],
+  "last_updated": "2026-05-15"
+}

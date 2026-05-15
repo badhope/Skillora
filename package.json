@@ -1,0 +1,33 @@
+{
+  "name": "prompthub",
+  "version": "1.0.0",
+  "description": "Universal cross-platform prompt engineering resource hub - collect, organize, and utilize prompts from global tech giants, open-source communities, and AI pioneers.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Tests coming soon\"",
+    "lint": "echo \"Linting coming soon\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badhope/PromptHub.git"
+  },
+  "keywords": [
+    "prompt-engineering",
+    "ai",
+    "llm",
+    "gpt",
+    "gemini",
+    "claude",
+    "copilot",
+    "qwen",
+    "wenxin",
+    "hunyuan",
+    "doubao"
+  ],
+  "author": "badhope",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/badhope/PromptHub/issues"
+  },
+  "homepage": "https://github.com/badhope/PromptHub"
+}
