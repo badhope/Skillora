@@ -22,7 +22,8 @@
     "qwen",
     "wenxin",
     "hunyuan",
-    "doubao"
+    "doubao",
+    "llama"
   ],
   "author": "badhope",
   "license": "MIT",

@@ -27,6 +27,12 @@
         "models": ["Claude 3.5 Sonnet", "Claude 3 Opus", "Claude 3 Haiku"],
         "directory": "international/anthropic",
         "docs": "https://docs.anthropic.com/"
+      },
+      {
+        "name": "Meta",
+        "models": ["Llama 3", "Llama 2", "Llama 3.1"],
+        "directory": "international/meta",
+        "docs": "https://ai.meta.com/llama/"
       }
     ],
     "chinese": [
