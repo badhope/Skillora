@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "PromptHub",
   "description": "Universal cross-platform prompt engineering resource hub",
   "platforms": {
@@ -33,6 +33,18 @@
         "models": ["Llama 3", "Llama 2", "Llama 3.1"],
         "directory": "international/meta",
         "docs": "https://ai.meta.com/llama/"
+      },
+      {
+        "name": "Cohere",
+        "models": ["Command R+", "Command R", "Command"],
+        "directory": "international/cohere",
+        "docs": "https://docs.cohere.com/"
+      },
+      {
+        "name": "Mistral & Groq",
+        "models": ["Mixtral 8x7B", "Mistral 7B", "Llama on Groq"],
+        "directory": "international/mistral-groq",
+        "docs": "https://docs.mistral.ai/"
       }
     ],
     "chinese": [
@@ -59,6 +71,12 @@
         "models": ["Doubao"],
         "directory": "chinese/bytedance",
         "docs": "https://console.volcengine.com/ark"
+      },
+      {
+        "name": "More Chinese Platforms",
+        "models": ["360 智脑", "智谱 GLM", "讯飞星火", "小冰"],
+        "directory": "chinese/more-platforms",
+        "docs": "https://ai.360.cn/"
       }
     ]
   },
@@ -73,33 +91,68 @@
     {
       "name": "dair-ai/Prompt-Engineering-Guide",
       "stars": 50000,
-      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
+      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "type": "Learning Guide"
     },
     {
       "name": "PlexPt/awesome-chatgpt-prompts-zh",
       "stars": 50000,
-      "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
+      "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
+      "type": "Chinese Prompts"
     },
     {
       "name": "f/awesome-chatgpt-prompts",
       "stars": 30000,
-      "url": "https://github.com/f/awesome-chatgpt-prompts"
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "type": "Role Prompts"
     },
     {
       "name": "promptslab/Awesome-Prompt-Engineering",
       "stars": 5900,
-      "url": "https://github.com/promptslab/Awesome-Prompt-Engineering"
+      "url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+      "type": "Resources"
     },
     {
       "name": "ai-boost/awesome-prompts",
       "stars": 3200,
-      "url": "https://github.com/ai-boost/awesome-prompts"
+      "url": "https://github.com/ai-boost/awesome-prompts",
+      "type": "Engineering"
     },
     {
       "name": "langgptai/awesome-claude-prompts",
       "stars": 5100,
-      "url": "https://github.com/langgptai/awesome-claude-prompts"
+      "url": "https://github.com/langgptai/awesome-claude-prompts",
+      "type": "Claude-Specific"
+    },
+    {
+      "name": "LangChain",
+      "stars": 85000,
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "Framework"
+    },
+    {
+      "name": "LlamaIndex",
+      "stars": 33000,
+      "url": "https://github.com/run-llama/llama_index",
+      "type": "Framework"
     }
   ],
-  "last_updated": "2026-05-15"
+  "frameworks": [
+    {
+      "name": "LangChain",
+      "description": "Comprehensive LLM application framework",
+      "url": "https://python.langchain.com/"
+    },
+    {
+      "name": "LlamaIndex",
+      "description": "Data framework for LLM applications",
+      "url": "https://gpt-index.readthedocs.io/"
+    },
+    {
+      "name": "Semantic Kernel",
+      "description": "Microsoft SDK for AI applications",
+      "url": "https://learn.microsoft.com/en-us/semantic-kernel/"
+    }
+  ],
+  "last_updated": "2026-05-16"
 }
