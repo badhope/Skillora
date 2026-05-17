@@ -1,11 +1,12 @@
 {
   "name": "prompthub",
-  "version": "1.0.0",
-  "description": "Universal cross-platform prompt engineering resource hub - collect, organize, and utilize prompts from global tech giants, open-source communities, and AI pioneers.",
+  "version": "3.0.0",
+  "description": "Universal cross-platform prompt engineering resource hub - collect, organize, and utilize prompts from global tech giants, open-source communities, and AI pioneers. Covering 15+ platforms including all major Chinese domestic models.",
   "main": "README.md",
   "scripts": {
     "test": "echo \"Tests coming soon\"",
-    "lint": "echo \"Linting coming soon\""
+    "lint": "echo \"Linting coming soon\"",
+    "sync": "cd scripts && ./sync-repos.sh"
   },
   "repository": {
     "type": "git",
@@ -19,16 +20,23 @@
     "gemini",
     "claude",
     "copilot",
+    "llama",
+    "mistral",
+    "cohere",
     "qwen",
     "wenxin",
     "hunyuan",
     "doubao",
-    "llama"
+    "glm",
+    "spark",
+    "360gpt",
+    "xiaoice"
   ],
   "author": "badhope",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/badhope/PromptHub/issues"
   },
-  "homepage": "https://github.com/badhope/PromptHub"
+  "homepage": "https://github.com/badhope/PromptHub",
+  "devDependencies": {}
 }

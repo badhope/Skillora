@@ -73,7 +73,7 @@
         "docs": "https://console.volcengine.com/ark"
       },
       {
-        "name": "360 (360 智脑",
+        "name": "360 (360 智脑)",
         "models": ["360GPT-4", "360GPT-Pro"],
         "directory": "chinese/360",
         "docs": "https://ai.360.cn/"
