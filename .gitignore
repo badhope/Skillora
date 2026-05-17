@@ -29,3 +29,6 @@ yarn-error.log*
 *.tmp
 *.temp
 *.bak
+
+# External downloads (large repos stored locally)
+external/
