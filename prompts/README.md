@@ -1,147 +1,111 @@
-# PromptHub 提示词库
+# PromptHub 提示词总索引
 
-最全的跨平台提示词库，覆盖所有领域和场景。
+## 📚 快速导航
 
-## 📋 目录
+### 核心提示词分类（按领域）
+- [开发类](./development.md) - 代码生成、审查、调试、架构
+- [写作类](./writing.md) - 内容创作、营销文案、邮件、创意
+- [商业类](./business.md) - 商业计划、营销、数据分析、管理
+- [生活类](./life.md) - 学习、健康、旅行、社交、创意
 
-- [平台覆盖](#平台覆盖)
-- [分类体系](#分类体系)
-- [快速开始](#快速开始)
-- [使用指南](#使用指南)
-- [贡献指南](#贡献指南)
-
-## 🌐 平台覆盖
-
-### 国际平台（7个）
-- [OpenAI (GPT系列)](/workspace/international/openai/README.md)
-- [Google (Gemini)](/workspace/international/google/README.md)
-- [Microsoft (Copilot)](/workspace/international/microsoft/README.md)
-- [Anthropic (Claude)](/workspace/international/anthropic/README.md)
-- [Meta (Llama)](/workspace/international/meta/README.md)
-- [Cohere](/workspace/international/cohere/README.md)
-- [Mistral & Groq](/workspace/international/mistral-groq/README.md)
-
-### 国内平台（8个）
-- [百度 (文心/ERNIE)](/workspace/chinese/baidu/README.md)
-- [阿里 (通义/千问)](/workspace/chinese/alibaba/README.md)
-- [腾讯 (混元)](/workspace/chinese/tencent/README.md)
-- [字节 (豆包)](/workspace/chinese/bytedance/README.md)
-- [360 智脑](/workspace/chinese/360/README.md)
-- [智谱 (GLM)](/workspace/chinese/zhipu/README.md)
-- [讯飞 (星火)](/workspace/chinese/xunfei/README.md)
-- [小冰](/workspace/chinese/xiaoice/README.md)
-
-## 📚 分类体系
-
-### 按领域分类
-- [技术与开发](/workspace/prompts/development/README.md)
-- [创意写作](/workspace/prompts/creative-writing/README.md)
-- [商业与管理](/workspace/prompts/business/README.md)
-- [各领域综合](/workspace/prompts/domains/README.md)
+### 平台特定提示词
+- [国际平台](../international/) - OpenAI, Google, Microsoft, Anthropic, Meta, Cohere, Mistral
+- [国内平台](../chinese/) - 百度, 阿里, 腾讯, 字节, 360, 智谱, 讯飞, 小冰
 
 ### 其他资源
-- [开源提示词收集](/workspace/opensource/README.md)
-- [框架集成](/workspace/frameworks/README.md)
-- [工具脚本](/workspace/scripts/README.md)
-- [快速模板](/workspace/examples/README.md)
-
-## 🚀 快速开始
-
-### 寻找合适的提示词
-
-1. 根据使用的平台进入对应文件夹
-2. 选择任务领域
-3. 复制提示词模板
-4. 按需求修改使用
-
-### 平台适配
-
-大部分提示词都可以跨平台使用，只需要：
-1. 调整模型名称
-2. 保持核心内容不变
-3. 根据平台特点微调
-
-### 示例使用
-
-```python
-# 复制提示词后使用
-prompt = """
-你是一位 Python 专家...
-
-[任务描述]
-"""
-```
-
-## 💡 使用指南
-
-### 通用提示词技巧
-
-1. **明确角色** - 指定 AI 扮演的角色
-2. **清晰任务** - 详细描述要完成的任务
-3. **设定要求** - 明确输出格式和质量要求
-4. **提供示例** - 展示期望的输出格式
-5. **设定约束** - 说明不能做什么
-
-### 不同平台适配
-
-#### 国际平台
-主要是格式差异，核心内容通用
-
-#### 国内平台
-中文平台对中文理解更好，可适当调整表达
-
-### 提示词迭代
-
-1. 先用基础提示词
-2. 根据结果调整
-3. 逐步优化完善
-4. 保存最佳版本
-
-## 🔄 同步开源提示词
-
-使用提供的脚本同步优质开源提示词：
-
-```bash
-cd /workspace/scripts
-chmod +x sync-repos.sh
-./sync-repos.sh
-```
-
-## 🤝 贡献指南
-
-欢迎贡献提示词！请参考：
-- [CONTRIBUTING.md](/workspace/CONTRIBUTING.md)
-
-贡献方式：
-1. Fork 项目
-2. 添加提示词
-3. 提交 PR
-4. 审核合并
-
-## 📦 项目结构
-
-```
-PromptHub/
-├── international/          # 国际平台提示词
-├── chinese/               # 国内平台提示词
-├── prompts/               # 分类提示词库
-│   ├── domains/          # 各领域提示词
-│   ├── development/      # 开发提示词
-│   ├── creative-writing/ # 写作提示词
-│   └── business/         # 商业提示词
-├── frameworks/           # 框架集成
-├── opensource/           # 开源收集
-├── examples/             # 示例模板
-├── scripts/              # 工具脚本
-└── ...
-```
-
-## 📖 更多资源
-
-- [主 README](/workspace/README.md)
-- [开源项目收集](/workspace/opensource/expanded-collection.md)
-- [框架集成指南](/workspace/frameworks/integrations.md)
+- [快速模板](../examples/)
+- [框架集成](../frameworks/)
+- [开源项目](../opensource/)
 
 ---
 
-**PromptHub** - 让每个平台都能用上优质提示词！✨
+## 💡 使用方法
+
+1. **选择分类** - 根据你的需求选择领域
+2. **复制提示词** - 选择合适的提示词复制
+3. **个性化修改** - 根据你的具体需求调整
+4. **使用提示词** - 在你喜欢的 AI 平台上使用
+
+---
+
+## 📊 提示词统计
+
+### 开发类（约 25+ 提示词）
+- 代码生成 - Python, JavaScript, 前端, API, 数据库
+- 代码审查 - 审查、评估
+- 调试修复 - Bug修复、性能优化
+- 架构设计 - 系统架构、微服务
+- 技术文档 - 文档生成、README
+- 测试开发 - 单元测试、测试策略
+- 工具开发 - 脚本、自动化
+
+### 写作类（约 20+ 提示词）
+- 内容创作 - 文章、博客、教程
+- 营销文案 - 产品文案、广告、社交媒体、品牌故事
+- 邮件写作 - 商务邮件、求职信、感谢信
+- 创意写作 - 故事、角色、对话
+- 翻译润色 - 翻译、润色、纠错
+- 专业文档 - 报告、会议纪要、演讲稿
+
+### 商业类（约 15+ 提示词）
+- 商业计划 - 商业计划、商业模式
+- 营销策划 - 营销、品牌、调研
+- 数据分析 - 数据分析、商业分析
+- 团队管理 - 团队管理、绩效、团队建设
+- 客户服务 - 客户沟通、反馈处理
+- 财务金融 - 财务分析、预算规划
+- 创业创新 - 创业评估、产品开发
+- 运营管理 - 运营优化、流程设计
+
+### 生活类（约 20+ 提示词）
+- 学习辅导 - 学科辅导、语言学习、考试准备、作业辅导
+- 健康健身 - 健身计划、饮食建议、健康咨询
+- 旅行规划 - 旅行计划、出行准备
+- 美食烹饪 - 食谱设计、饮食搭配
+- 生活创意 - 家居装饰、礼品选择、穿搭建议
+- 社交人际 - 社交沟通、谈话准备
+- 财务管理 - 理财建议、预算规划
+- 兴趣爱好 - 技能学习、创意灵感
+- 目标管理 - 目标设定、时间管理、习惯养成
+- 心理咨询 - 情绪疏导、压力管理
+
+---
+
+## 🎯 按场景索引
+
+### 工作场景
+- 写代码 → 开发类
+- 写邮件 → 写作类
+- 做分析 → 商业类
+- 做规划 → 商业类
+
+### 学习场景
+- 写作业 → 生活类
+- 学知识 → 生活类
+- 备考 → 生活类
+
+### 生活场景
+- 写文案 → 写作类
+- 做计划 → 生活类
+- 找建议 → 生活类
+
+---
+
+## 📖 提示词技巧
+
+1. **明确角色** - 告诉 AI 扮演什么角色
+2. **清晰任务** - 具体描述要完成的任务
+3. **详细要求** - 列出具体的要求和期望
+4. **格式明确** - 说明期望的输出格式
+5. **提供示例** - 如果可能，给出好的示例
+
+---
+
+## 🤝 贡献提示词
+
+欢迎贡献提示词！请遵循以下指南：
+
+1. 将提示词放入合适的分类
+2. 使用清晰的描述
+3. 提供完整的提示词模板
+4. 提交 PR 或 Issue
