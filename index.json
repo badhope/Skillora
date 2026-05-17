@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0",
+  "version": "3.0.0",
   "name": "PromptHub",
-  "description": "Universal cross-platform prompt engineering resource hub",
+  "description": "全面的跨平台提示词库，覆盖所有国产和国际平台",
   "platforms": {
     "international": [
       {
@@ -49,43 +49,60 @@
     ],
     "chinese": [
       {
-        "name": "Baidu",
+        "name": "Baidu (百度)",
         "models": ["ERNIE Bot", "Wenxin Qianfan"],
         "directory": "chinese/baidu",
         "docs": "https://cloud.baidu.com/doc/wenxinworkshop"
       },
       {
-        "name": "Alibaba",
+        "name": "Alibaba (阿里)",
         "models": ["Qwen", "Tongyi Qianwen"],
         "directory": "chinese/alibaba",
         "docs": "https://help.aliyun.com/document_detail/243822.html"
       },
       {
-        "name": "Tencent",
+        "name": "Tencent (腾讯)",
         "models": ["Hunyuan"],
         "directory": "chinese/tencent",
         "docs": "https://cloud.tencent.com/document/product/1729"
       },
       {
-        "name": "ByteDance",
+        "name": "ByteDance (字节)",
         "models": ["Doubao"],
         "directory": "chinese/bytedance",
         "docs": "https://console.volcengine.com/ark"
       },
       {
-        "name": "More Chinese Platforms",
-        "models": ["360 智脑", "智谱 GLM", "讯飞星火", "小冰"],
-        "directory": "chinese/more-platforms",
+        "name": "360 (360 智脑",
+        "models": ["360GPT-4", "360GPT-Pro"],
+        "directory": "chinese/360",
         "docs": "https://ai.360.cn/"
+      },
+      {
+        "name": "Zhipu (智谱)",
+        "models": ["GLM-4", "GLM-3 Turbo"],
+        "directory": "chinese/zhipu",
+        "docs": "https://open.bigmodel.cn/dev/api"
+      },
+      {
+        "name": "Xunfei (讯飞)",
+        "models": ["Spark 4.0", "Spark Pro", "Spark Lite"],
+        "directory": "chinese/xunfei",
+        "docs": "https://www.xfyun.cn/doc/spark/Web.html"
+      },
+      {
+        "name": "Xiaoice (小冰)",
+        "models": ["Xiaoice"],
+        "directory": "chinese/xiaoice",
+        "docs": "https://www.xiaoice.com/"
       }
     ]
   },
-  "categories": [
-    "Development & Code",
-    "Writing & Content",
-    "Analysis & Research",
-    "Creative & Entertainment",
-    "Business & Professional"
+  "prompt_categories": [
+    "技术与开发",
+    "创意写作",
+    "商业与管理",
+    "领域综合"
   ],
   "opensource_collections": [
     {
@@ -152,7 +169,30 @@
       "name": "Semantic Kernel",
       "description": "Microsoft SDK for AI applications",
       "url": "https://learn.microsoft.com/en-us/semantic-kernel/"
+    },
+    {
+      "name": "Hugging Face",
+      "description": "The largest AI model hub",
+      "url": "https://huggingface.co/"
     }
   ],
+  "prompt_library": {
+    "development": {
+      "description": "技术开发相关提示词",
+      "directory": "prompts/development"
+    },
+    "creative-writing": {
+      "description": "创意写作相关提示词",
+      "directory": "prompts/creative-writing"
+    },
+    "business": {
+      "description": "商业管理相关提示词",
+      "directory": "prompts/business"
+    },
+    "domains": {
+      "description": "全领域综合提示词",
+      "directory": "prompts/domains"
+    }
+  },
   "last_updated": "2026-05-16"
 }
