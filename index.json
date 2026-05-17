@@ -106,52 +106,95 @@
   ],
   "opensource_collections": [
     {
+      "name": "LangChain",
+      "stars": 85000,
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "Framework",
+      "description": "LLM application framework"
+    },
+    {
       "name": "dair-ai/Prompt-Engineering-Guide",
       "stars": 50000,
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-      "type": "Learning Guide"
+      "type": "Learning Guide",
+      "description": "Comprehensive prompt engineering guide"
     },
     {
       "name": "PlexPt/awesome-chatgpt-prompts-zh",
       "stars": 50000,
       "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
-      "type": "Chinese Prompts"
-    },
-    {
-      "name": "f/awesome-chatgpt-prompts",
-      "stars": 30000,
-      "url": "https://github.com/f/awesome-chatgpt-prompts",
-      "type": "Role Prompts"
-    },
-    {
-      "name": "promptslab/Awesome-Prompt-Engineering",
-      "stars": 5900,
-      "url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
-      "type": "Resources"
-    },
-    {
-      "name": "ai-boost/awesome-prompts",
-      "stars": 3200,
-      "url": "https://github.com/ai-boost/awesome-prompts",
-      "type": "Engineering"
-    },
-    {
-      "name": "langgptai/awesome-claude-prompts",
-      "stars": 5100,
-      "url": "https://github.com/langgptai/awesome-claude-prompts",
-      "type": "Claude-Specific"
-    },
-    {
-      "name": "LangChain",
-      "stars": 85000,
-      "url": "https://github.com/langchain-ai/langchain",
-      "type": "Framework"
+      "type": "Chinese Prompts",
+      "description": "Chinese prompt collection"
     },
     {
       "name": "LlamaIndex",
       "stars": 33000,
       "url": "https://github.com/run-llama/llama_index",
-      "type": "Framework"
+      "type": "Framework",
+      "description": "LLM data framework"
+    },
+    {
+      "name": "f/awesome-chatgpt-prompts",
+      "stars": 30000,
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "type": "Role Prompts",
+      "description": "Role-based prompt collection"
+    },
+    {
+      "name": "linshenkx/prompt-optimizer",
+      "stars": 28800,
+      "url": "https://github.com/linshenkx/prompt-optimizer",
+      "type": "Tool",
+      "description": "AI prompt optimizer"
+    },
+    {
+      "name": "langfuse/langfuse",
+      "stars": 27200,
+      "url": "https://github.com/langfuse/langfuse",
+      "type": "Platform",
+      "description": "LLM engineering platform"
+    },
+    {
+      "name": "promptfoo/promptfoo",
+      "stars": 21200,
+      "url": "https://github.com/promptfoo/promptfoo",
+      "type": "Tool",
+      "description": "Prompt testing framework"
+    },
+    {
+      "name": "humanlayer/12-factor-agents",
+      "stars": 19800,
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "type": "Guide",
+      "description": "Agent design principles"
+    },
+    {
+      "name": "timqian/openprompt.co",
+      "stars": 15000,
+      "url": "https://github.com/timqian/openprompt.co",
+      "type": "Platform",
+      "description": "Prompt sharing platform"
+    },
+    {
+      "name": "promptslab/Awesome-Prompt-Engineering",
+      "stars": 5900,
+      "url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+      "type": "Resources",
+      "description": "Prompt engineering resources"
+    },
+    {
+      "name": "langgptai/awesome-claude-prompts",
+      "stars": 5100,
+      "url": "https://github.com/langgptai/awesome-claude-prompts",
+      "type": "Claude-Specific",
+      "description": "Claude prompt collection"
+    },
+    {
+      "name": "ai-boost/awesome-prompts",
+      "stars": 3200,
+      "url": "https://github.com/ai-boost/awesome-prompts",
+      "type": "Engineering",
+      "description": "Engineering-focused prompts"
     }
   ],
   "frameworks": [
@@ -194,5 +237,5 @@
       "directory": "prompts/domains"
     }
   },
-  "last_updated": "2026-05-16"
+  "last_updated": "2026-05-17"
 }
