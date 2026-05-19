@@ -1,300 +1,241 @@
-# 🎯 AgentHome - AI Agent 开发导航
+# 🏠 AgentHome - 智能体开发工具库
 
-> **你想构建 AI Agent，但不知道从哪里开始？**
+> **你可以像搭积木一样开发智能体！**
 > 
-> 💡 **欢迎来到 AgentHome！** 这是一个精心策划的 AI Agent 开发资源集合，帮助你快速找到最适合的工具和框架！
+> AgentHome 是一个集成了从底层到高级的完整 AI 智能体开发工具库。你可以：
+> 1. **选择性拼装** - 从 building-blocks 选择需要的模块自己组装
+> 2. **直接使用** - 从 ready-made-agents 选择完整的项目直接使用
+> 3. **参考学习** - 从 curated-collection 查看知名项目的文档
 
 ---
 
-## 🚀 快速开始
+## 🎯 为什么选择 AgentHome？
 
-### 🎯 我想要...
-
-#### 💻 **从零开发 AI Agent**
-```bash
-推荐路径：
-1. 阅读 [用户导航指南](curated-projects/NAVIGATION.md)
-2. 从 [Dify](curated-projects/applications/dify.md) 开始 - 无需代码
-3. 学习 [LangChain](curated-projects/frameworks/langchain.md) - 深度定制
-```
-
-#### 🤖 **构建多智能体系统**
-```bash
-推荐框架：
-- [MetaGPT](curated-projects/frameworks/metagpt.md) - 模拟软件公司
-- [CrewAI](curated-projects/frameworks/crewai.md) - 角色化团队协作
-- [AutoGen](curated-projects/frameworks/autogen.md) - 微软企业级
-```
-
-#### 🚀 **快速部署 AI 应用**
-```bash
-推荐平台：
-- [Coze](curated-projects/applications/coze.md) - 字节跳动出品
-- [Dify](curated-projects/applications/dify.md) - 开源自托管
-- [AgentGPT](curated-projects/applications/agentgpt.md) - 浏览器直接用
-```
-
-#### 💬 **构建对话机器人**
-```bash
-推荐方案：
-- [Botpress](curated-projects/applications/botpress.md) - 企业级开源
-- [Voiceflow](curated-projects/applications/voiceflow.md) - 语音助手
-- [Coze](curated-projects/applications/coze.md) - 多渠道发布
-```
+| 传统方式 | AgentHome 方式 |
+|---------|---------------|
+| 😕 从零开始，一切都要自己写 | 🧱 模块化，选择你需要的模块 |
+| 📚 到处找资料，不知道选什么 | 📋 分门别类，目录清晰 |
+| 🚫 找不到现成的好项目 | 🚀 完整项目直接用 |
 
 ---
 
-## 🌟 精选项目一览
-
-### 🔥 最热门框架 (按 Stars 排序)
-
-| 项目 | ⭐ Stars | 类型 | 推荐理由 |
-|------|---------|------|---------|
-| [AutoGPT](curated-projects/applications/autogpt.md) | 160k+ | 自主代理 | 自主代理先驱 |
-| [LangChain](curated-projects/frameworks/langchain.md) | 114k+ | 开发框架 | 生态最全 |
-| [Dify](curated-projects/applications/dify.md) | 60k+ | 应用平台 | 开源易用 |
-| [AutoGen](curated-projects/frameworks/autogen.md) | 58k+ | 多智能体 | 微软出品 |
-| [MetaGPT](curated-projects/frameworks/metagpt.md) | 47k+ | 多智能体 | ICLR Oral |
-
-### 🎯 编辑精选
-
-| 分类 | 首选 | 备选 |
-|------|------|------|
-| **RAG 应用** | LlamaIndex | LangChain |
-| **多智能体** | CrewAI | MetaGPT |
-| **快速原型** | Dify | Coze |
-| **企业级** | Semantic Kernel | AutoGen |
-| **语音助手** | Voiceflow | Botpress |
-
----
-
-## 📂 完整项目分类
+## 📁 完整目录结构
 
 ```
 AgentHome/
 │
-├── 🌟 curated-projects/              # ⭐ 精选项目集合
-│   │
-│   ├── 🛠️ frameworks/               # 开发框架
-│   │   ├── langchain.md            # LangChain & LangGraph
-│   │   ├── autogen.md              # Microsoft AutoGen
-│   │   ├── crewai.md               # CrewAI
-│   │   ├── llamaindex.md           # LlamaIndex & LlamaAgents
-│   │   ├── metagpt.md              # MetaGPT
-│   │   ├── openai-swarm.md         # OpenAI Swarm
-│   │   ├── openagents.md           # OpenAgents
-│   │   ├── agentscope.md           # AgentScope
-│   │   └── semantic-kernel.md      # Semantic Kernel
-│   │
-│   ├── 🚀 applications/            # 应用项目
-│   │   ├── autogpt.md              # AutoGPT
-│   │   ├── dify.md                 # Dify
-│   │   ├── agentgpt.md             # AgentGPT
-│   │   ├── coze.md                 # Coze / 扣子
-│   │   ├── botpress.md             # Botpress
-│   │   └── voiceflow.md            # Voiceflow
-│   │
-│   ├── 📚 resources/               # 学习资源
-│   │   └── README.md               # 教程、文档、论文
-│   │
-│   ├── NAVIGATION.md               # 🚀 用户导航指南
-│   └── README.md                   # 本文件
+├── 🌟 curated-collection/          # 精选项目文档（外部项目）
+│   ├── frameworks/               # 知名框架文档
+│   ├── applications/             # 知名应用文档
+│   ├── resources/                # 学习资源
+│   ├── NAVIGATION.md            # 用户导航（必读！）
+│   └── README.md
 │
-├── 🔧 configs/                      # 配置文件模板
-│   ├── langchain/                   # LangChain 配置
-│   ├── crewai/                      # CrewAI 配置
-│   ├── autogen/                     # AutoGen 配置
-│   ├── metagpt/                     # MetaGPT 配置
-│   └── templates/                  # 通用模板
+├── 🧱 building-blocks/            # ⭐ 可拼装的模块（核心！）
+│   ├── frameworks-integrations/  # 框架集成包装
+│   │   ├── langchain-wrapper/
+│   │   ├── llamaindex-wrapper/
+│   │   ├── crewai-wrapper/
+│   │   └── autogen-wrapper/
+│   │
+│   ├── tools/                    # 通用工具
+│   │   ├── llm-wrappers/        # LLM 包装
+│   │   │   └── openai_wrapper.py
+│   │   ├── vector-dbs/          # 向量数据库
+│   │   ├── memory/              # 记忆模块
+│   │   │   └── buffer_memory.py
+│   │   └── connectors/          # 外部服务
+│   │
+│   └── capabilities/             # 高级能力
+│       ├── rag/                 # RAG 能力
+│       │   └── simple_rag.py
+│       ├── multi-agent/         # 多智能体
+│       ├── tool-calling/        # 工具调用
+│       └── workflow/            # 工作流
 │
-├── 📚 frameworks/                   # 框架集成代码
-├── 🛠️ tools/                       # 工具实现
-├── 🚀 projects/                    # 项目模板
-├── 📋 templates/                   # 项目模板
-└── 📖 docs/                        # 文档
+├── 🚀 ready-made-agents/          # ⭐ 完整的可运行项目
+│   ├── chat-assistant/          # 聊天助手
+│   │   ├── main.py
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   ├── research-agent/          # 研究助手
+│   ├── customer-support/        # 客服机器人
+│   └── task-automation/         # 任务自动化
+│
+├── 📋 templates/                  # 项目模板
+├── 🔧 configs/                    # 配置文件
+├── 📚 docs/                       # 文档
+└── README.md                     # 本文件
 ```
 
 ---
 
-## 🎓 学习路径
+## 🚀 两种使用方式
 
-### 🛤️ 路径 1: 从零学习 AI Agent 开发
+### 方式 1：选择性拼装（推荐）
 
-```
-Week 1 → 了解概念
-  📖 阅读 [用户导航指南](curated-projects/NAVIGATION.md)
-  🎬 观看 [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
+从 `building-blocks/` 选择需要的模块，自己组装成项目：
 
-Week 2 → 快速原型
-  🛠️ 使用 [Dify](curated-projects/applications/dify.md) 创建第一个 AI 应用
-  📚 学习基本概念和组件
+```python
+# 示例：构建一个带 RAG 的聊天机器人
 
-Week 3 → 深度学习
-  📖 研究 [LangChain](curated-projects/frameworks/langchain.md)
-  🧪 运行示例代码
+# 1. 选择 LLM 包装
+from building_blocks.tools.llm_wrappers.openai_wrapper import OpenAIWrapper
 
-Week 4 → 多智能体
-  🤖 探索 [CrewAI](curated-projects/frameworks/crewai.md)
-  🎯 构建你的第一个多智能体系统
-```
+# 2. 选择记忆模块
+from building_blocks.tools.memory.buffer_memory import BufferMemory
 
-### 🛤️ 路径 2: 生产级应用开发
+# 3. 选择 RAG 能力
+from building_blocks.capabilities.rag.simple_rag import SimpleRAG
 
-```
-Step 1 → 选择框架
-  🔍 参考 [导航指南](curated-projects/NAVIGATION.md)
-  ⚖️ 评估：LangChain vs AutoGen vs CrewAI
+# 4. 拼装！
+llm = OpenAIWrapper(api_key="...")
+memory = BufferMemory()
+rag = SimpleRAG(llm=llm, memory=memory)
 
-Step 2 → 架构设计
-  📐 使用 [LangGraph](curated-projects/frameworks/langgraph.md) 设计工作流
-  🔧 参考 [配置模板](configs/)
-
-Step 3 → 知识库集成
-  📚 使用 [LlamaIndex](curated-projects/frameworks/llamaindex.md) 构建 RAG
-
-Step 4 → 测试和部署
-  🐳 Docker 容器化
-  🚀 选择部署方案
+# 5. 使用！
+rag.add_document("你的知识文档")
+response = rag.query("你的问题")
 ```
 
-### 🛤️ 路径 3: 快速落地 AI 应用
+### 方式 2：直接使用完整项目
 
-```
-Day 1 → 需求分析
-  🎯 确定场景：客服 / 销售 / 内容 / 数据？
+从 `ready-made-agents/` 选择一个完整项目直接使用：
 
-Day 2 → 选择平台
-  🌏 国内 → [Coze](curated-projects/applications/coze.md)
-  🌍 国外 → [Dify](curated-projects/applications/dify.md)
+```bash
+# 选择聊天助手
+cd ready-made-agents/chat-assistant
+pip install -r requirements.txt
+python main.py
 
-Day 3 → 配置和测试
-  📚 配置知识库
-  🔄 设计对话流程
-  ✅ 测试和优化
-
-Day 4 → 发布上线
-  🚀 部署到目标平台
-  📊 监控和迭代
+# 或者选择研究助手
+cd ready-made-agents/research-agent
+pip install -r requirements.txt
+python main.py
 ```
 
 ---
 
-## 📊 项目对比表
+## 🎯 快速开始
 
-### 多智能体框架对比
+### 步骤 1：选择你的需求
 
-| 框架 | ⭐ Stars | 难度 | 特点 | 最佳场景 |
-|------|---------|------|------|---------|
-| **LangChain** | 114k+ | ⭐⭐ | 模块化、链式调用 | 通用 LLM 应用 |
-| **CrewAI** | 20k+ | ⭐ | 角色化、直观 | 团队协作 |
-| **AutoGen** | 58k+ | ⭐⭐⭐ | 多模式对话 | 企业级应用 |
-| **MetaGPT** | 47k+ | ⭐⭐ | SOP 驱动 | 软件开发 |
-| **Swarm** | 15k+ | ⭐ | 轻量级 | 快速原型 |
+| 你想要... | 推荐路径 |
+|----------|---------|
+| 快速体验 | `ready-made-agents/chat-assistant` |
+| 处理文档 | `ready-made-agents/research-agent` |
+| 自己拼装 | `building-blocks/` |
+| 参考学习 | `curated-collection/NAVIGATION.md` |
 
-### 应用平台对比
+### 步骤 2：开始使用
 
-| 平台 | 费用 | 代码要求 | 部署方式 | 最佳场景 |
-|------|------|---------|---------|---------|
-| **Dify** | 免费开源 | 无需 | 自托管 | 企业自部署 |
-| **Coze** | 免费基础版 | 无需 | 云端 | 快速上线 |
-| **Botpress** | 免费开源 | 无需 | 自托管 | 企业对话 |
-| **AgentGPT** | 免费 | 无需 | 浏览器 | 快速体验 |
+```bash
+# 克隆仓库
+git clone https://github.com/badhope/AgentHome.git
+cd AgentHome
 
----
+# 方式 A：使用现成项目（推荐）
+cd ready-made-agents/chat-assistant
+pip install -r requirements.txt
+python main.py
 
-## 🎯 常见场景推荐
-
-| 🎯 你的需求 | 💡 推荐方案 | 📖 查看 |
-|------------|------------|---------|
-| 客服机器人 | Coze / Botpress | [详情](curated-projects/applications/coze.md) |
-| 销售助手 | CrewAI / AutoGen | [详情](curated-projects/frameworks/crewai.md) |
-| 知识库问答 | LlamaIndex / Dify | [详情](curated-projects/frameworks/llamaindex.md) |
-| 语音助手 | Voiceflow | [详情](curated-projects/applications/voiceflow.md) |
-| 数据分析 | MetaGPT | [详情](curated-projects/frameworks/metagpt.md) |
-| 快速原型 | Dify / AgentGPT | [详情](curated-projects/applications/dify.md) |
+# 方式 B：自己拼装
+cd ..
+# 查看 building-blocks 选择模块
+```
 
 ---
 
-## 🛠️ 开发者工具
+## 📊 各部分说明
 
-### 调试和监控
-| 工具 | 用途 | 链接 |
-|------|------|------|
-| LangSmith | LangChain 调试 | https://smith.langchain.com |
-| LangFuse | 开源可观测性 | https://github.com/langfuse/langfuse |
-| Weights & Biases | 实验追踪 | https://wandb.ai |
+### 1. 🧱 building-blocks（可拼装模块）
 
-### 向量数据库
-| 数据库 | 类型 | 特点 |
-|--------|------|------|
-| Pinecone | 云服务 | 托管、简单 |
-| Chroma | 开源 | 轻量级、本地 |
-| FAISS | 开源 | 高性能、Facebook |
-| Milvus | 开源 | 大规模、云原生 |
+**核心价值：** 提供可复用的代码模块，你可以选择性拼装
 
-### 部署平台
-| 平台 | 用途 | 特点 |
-|------|------|------|
-| Vercel | 前端部署 | 简单、快速 |
-| Docker | 容器化 | 通用、可移植 |
-| Railway | 全栈部署 | 现代化、易用 |
+**包含：**
+- `tools/` - 基础工具（LLM 包装、记忆、向量库、连接器）
+- `capabilities/` - 高级能力（RAG、多智能体、工具调用、工作流）
+- `frameworks-integrations/` - 框架包装（LangChain、LlamaIndex 等）
+
+**使用场景：** 你需要定制化开发，不想从零开始
 
 ---
 
-## 📚 学习资源
+### 2. 🚀 ready-made-agents（完整项目）
 
-### 官方文档
-- [LangChain 文档](https://python.langchain.com)
-- [AutoGen 文档](https://microsoft.github.io/autogen)
-- [CrewAI 文档](https://docs.crewai.com)
-- [LlamaIndex 文档](https://docs.llamaindex.ai)
+**核心价值：** 完整的可运行项目，直接使用或修改
 
-### 免费教程
-- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
-- [LangChain Academy](https://academy.langchain.com)
-- [CrewAI Academy](https://academy.crewai.com)
+**包含：**
+- `chat-assistant/` - 简单聊天助手
+- `research-agent/` - 带知识库的问答系统
+- `customer-support/` - 客服机器人
+- `task-automation/` - 任务自动化
 
-### 社区
-- [Discord: LangChain](https://discord.gg/langchain)
-- [Discord: CrewAI](https://discord.gg/crewai)
-- [GitHub Discussions](https://github.com/badhope/AgentHome/discussions)
+**使用场景：** 你想快速落地，不想自己拼装
 
 ---
 
-## 🤝 贡献指南
+### 3. 🌟 curated-collection（精选项目）
 
-欢迎贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md)。
+**核心价值：** 收集知名项目的文档和链接
 
-### 添加新项目
-1. 在 `curated-projects/` 对应分类下创建 Markdown 文件
-2. 遵循项目模板格式
-3. 提交 Pull Request
+**包含：**
+- `frameworks/` - LangChain、AutoGen、CrewAI、MetaGPT 等文档
+- `applications/` - AutoGPT、Dify、Coze 等文档
+- `NAVIGATION.md` - 用户导航指南
 
-### 改进文档
-- 修正错误信息
-- 添加使用示例
-- 完善用户引导
+**使用场景：** 你想了解行业里都有什么好项目
+
+---
+
+## 💡 使用指南
+
+### 场景 1：我要做一个客服机器人
+
+**推荐路径：**
+1. 看 `ready-made-agents/customer-support/` - 有现成的
+2. 或者从 `building-blocks/` 自己拼装：
+   - 选 LLM 包装
+   - 选记忆模块
+   - 选 RAG（如果需要知识库）
+
+### 场景 2：我要做一个研究助手
+
+**推荐路径：**
+1. 用 `ready-made-agents/research-agent/` - 现成的
+2. 修改它或参考它自己做
+
+### 场景 3：我想了解有什么好框架
+
+**推荐路径：**
+1. 看 `curated-collection/NAVIGATION.md`
+2. 根据需求选择框架
+
+---
+
+## 📖 更多资源
+
+- **用户导航** - [NAVIGATION.md](curated-collection/NAVIGATION.md)
+- **精选项目** - [curated-collection/](curated-collection/)
+- **拼装模块** - [building-blocks/](building-blocks/)
+- **现成项目** - [ready-made-agents/](ready-made-agents/)
+
+---
+
+## 🤝 贡献
+
+欢迎贡献：
+1. 添加新的 building-blocks
+2. 添加新的 ready-made-agents
+3. 完善文档
+4. 报告问题
 
 ---
 
 ## 📜 License
 
-MIT License - 查看 [LICENSE](LICENSE)
+MIT License
 
 ---
 
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=badhope/AgentHome&type=Date)](https://star-history.com/#badhope/AgentHome&Date)
-
----
-
-<p align="center">
-  <strong>🎉 祝你开发愉快！</strong>
-  
-  如果这个项目对你有帮助，请给我们一个 ⭐
-</p>
-
----
-
-*Built with ❤️ by the AgentHome Team*
+**🎉 现在开始，你可以像搭积木一样开发智能体了！**

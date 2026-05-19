@@ -7,7 +7,7 @@
 ## 📁 目录结构
 
 ```
-curated-projects/
+curated-collection/
 ├── 📋 README.md                  # 本文件 - 总览
 │
 ├── 🌟 NAVIGATION.md              # 🚀 用户导航指南
