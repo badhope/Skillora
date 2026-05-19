@@ -6,13 +6,16 @@
 
 ## 📊 框架对比
 
-| 框架 | ⭐ Stars | 语言 | 特点 | 适用场景 |
+| 框架 | ⭐ Stars | 语言 | 特点 | 最佳场景 |
 |------|---------|------|------|---------|
 | [LangChain](langchain.md) | 114k+ | Python/JS | 模块化链式调用 | 通用 LLM 应用 |
 | [AutoGen](autogen.md) | 58k+ | Python/.NET | 多智能体对话 | 协作式工作流 |
-| [CrewAI](crewai.md) | 20k+ | Python | 角色化团队协作 | 复杂任务分工 |
+| [MetaGPT](metagpt.md) | 47k+ | Python | 软件公司模式 | 端到端开发 |
 | [LlamaIndex](llamaindex.md) | 30k+ | Python | 数据与 LLM 连接 | RAG 应用 |
-| [LangGraph](langgraph.md) | 25k+ | Python/JS | 图状态机 | 复杂工作流 |
+| [CrewAI](crewai.md) | 20k+ | Python | 角色化团队协作 | 复杂任务分工 |
+| [OpenAI Swarm](openai-swarm.md) | 15k+ | Python | 轻量级编排 | 快速原型 |
+| [OpenAgents](openagents.md) | 8k+ | Python/TS | MCP/A2A 协议 | 智能体网络 |
+| [AgentScope](agentscope.md) | 8k+ | Python | 低门槛易用 | 快速学习 |
 | [Semantic Kernel](semantic-kernel.md) | 23k+ | C#/Python/JS | 微软生态集成 | 企业级应用 |
 
 ---
@@ -27,11 +30,13 @@
 ### 多智能体框架
 - **AutoGen** - 多智能体对话模式
 - **CrewAI** - 角色化团队协作
-- **LangGraph** - 图状态机，支持多智能体
+- **MetaGPT** - 软件公司模式
+- **OpenAI Swarm** - 轻量级交接
+- **OpenAgents** - 协议级互操作
+- **AgentScope** - 低门槛易用
 
-### 数据与 RAG 框架
-- **LlamaIndex** - RAG 专用
-- **LangChain** - 通用 RAG 组件
+### 状态与工作流
+- **LangGraph** (LangChain 生态) - 图状态机
 
 ---
 
@@ -42,9 +47,12 @@
 | 快速构建 RAG 应用 | LlamaIndex |
 | 复杂多步骤工作流 | LangGraph |
 | 团队协作式 AI | CrewAI |
+| 软件开发自动化 | MetaGPT |
 | 多智能体对话 | AutoGen |
+| 轻量级快速原型 | OpenAI Swarm |
+| 智能体互操作性 | OpenAgents |
 | 与微软生态集成 | Semantic Kernel |
-| 通用 LLM 应用 | LangChain |
+| 简单易学入门 | AgentScope |
 
 ---
 
