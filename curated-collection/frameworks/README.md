@@ -17,6 +17,11 @@
 | [OpenAgents](openagents.md) | 8k+ | Python/TS | MCP/A2A 协议 | 智能体网络 |
 | [AgentScope](agentscope.md) | 8k+ | Python | 低门槛易用 | 快速学习 |
 | [Semantic Kernel](semantic-kernel.md) | 23k+ | C#/Python/JS | 微软生态集成 | 企业级应用 |
+| [litellm](litellm.md) | 44.9k+ | Python | 统一 LLM API 网关 | 多提供商管理 |
+| [Instructor](instructor.md) | 26k+ | Python/TS | 结构化输出 | Pydantic 验证 |
+| [Anthropic SDK](anthropic-sdk.md) | 2k+ | Python/TS | Claude 官方 SDK | 直接调用 Claude |
+| [Vertex AI](vertex-ai.md) | 1.5k+ | 多语言 | Google 云平台 | 企业级部署 |
+| [AWS Bedrock](aws-bedrock.md) | - | 多语言 | AWS 托管服务 | 多模型访问 |
 
 ---
 

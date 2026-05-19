@@ -14,6 +14,8 @@
 | [Coze](coze.md) | - | 开发平台 | 字节跳动 AI Bot 开发平台 |
 | [Botpress](botpress.md) | - | 对话平台 | 企业级开源对话系统 |
 | [Voiceflow](voiceflow.md) | - | 语音平台 | 语音助手开发平台 |
+| [Hermes Agent](hermes-agent.md) | 119k+ | 自主代理 | 持续学习的智能体框架 |
+| [MetaGPT](metagpt.md) | 47k+ | 多智能体 | 软件公司模式的多智能体 |
 
 ---
 
