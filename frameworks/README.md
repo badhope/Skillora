@@ -1,36 +1,21 @@
-# Frameworks & Integrations
+# Frameworks
+Foundational AI agent frameworks for building intelligent systems.
 
-Prompt engineering frameworks and LLM application frameworks.
+## Directory Structure
 
-## 📋 Contents
+```
+frameworks/
+├── langchain/          # LangChain integration and extensions
+├── llamaindex/         # LlamaIndex utilities
+├── agent-protocol/     # Custom agent communication protocols
+└── orchestration/      # Multi-agent orchestration frameworks
+```
 
-- [Integrations Guide](./integrations.md) - Complete framework integration guide
+## Available Frameworks
 
-## 🔧 Popular Frameworks
-
-### LangChain
-- Comprehensive LLM application framework
-- Chains, agents, memory, RAG
-- Largest ecosystem
-
-### LlamaIndex (GPT Index)
-- Data framework for LLM applications
-- Advanced indexing and retrieval
-- Complex query pipelines
-
-### Semantic Kernel
-- Microsoft's AI SDK
-- Plugins & skills
-- Enterprise-ready
-
-### Hugging Face
-- Largest model hub
-- Transformers library
-- PEFT, datasets, and more
-
-## 📚 Other Tools
-
-- AutoGPT - Autonomous agents
-- BabyAGI - Task management
-- LangFlow - Visual LangChain
-- Many more...
+| Framework | Description | Language |
+|-----------|-------------|----------|
+| LangChain | LLMOps framework for composable LLM applications | Python/TypeScript |
+| LlamaIndex | Data-centric LLM framework | Python |
+| Agent Protocol | Lightweight agent communication | TypeScript |
+| Orchestration | Multi-agent coordination | TypeScript |

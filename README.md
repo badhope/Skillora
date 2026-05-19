@@ -1,139 +1,119 @@
-# PromptHub - 提示词库
+# AgentHome
+> **AI Agent Development Hub**
 
-## 🌟 项目简介
-
-**PromptHub** 是一个全面的跨平台提示词库，汇集了 80+ 实用提示词，涵盖开发、写作、商业、生活等各个领域，支持 15+ 国内外 AI 平台！
-
----
-
-## 📚 提示词分类（80+ 提示词）
-
-### 💻 开发类
-- [开发类提示词](./prompts/development.md) - 25+ 提示词
-  - 代码生成（Python, JavaScript, 前端, API, 数据库）
-  - 代码审查与评估
-  - 调试与性能优化
-  - 架构设计
-  - 技术文档
-  - 测试开发
-  - 工具开发
-
-### ✍️ 写作类
-- [写作类提示词](./prompts/writing.md) - 20+ 提示词
-  - 内容创作（文章、博客、教程）
-  - 营销文案（产品、广告、社交媒体、品牌）
-  - 邮件写作（商务、求职、感谢）
-  - 创意写作（故事、角色、对话）
-  - 翻译润色
-  - 专业文档
-
-### 💼 商业类
-- [商业类提示词](./prompts/business.md) - 15+ 提示词
-  - 商业计划与商业模式
-  - 营销策划与品牌
-  - 数据分析
-  - 团队管理
-  - 客户服务
-  - 财务金融
-  - 创业创新
-  - 运营管理
-
-### 🌱 生活类
-- [生活类提示词](./prompts/life.md) - 20+ 提示词
-  - 学习辅导（学科、语言、考试、作业）
-  - 健康健身
-  - 旅行规划
-  - 美食烹饪
-  - 生活创意（装饰、礼品、穿搭）
-  - 社交人际
-  - 财务管理
-  - 兴趣爱好
-  - 目标管理
-  - 心理咨询
+🚀 A comprehensive collection of AI agent frameworks, tools, and production-ready projects for building intelligent agents. From foundational frameworks like LangChain to complete agent applications.
 
 ---
 
-## 🌍 平台支持（15+）
+## 🎯 Vision
 
-### 国际平台
-- OpenAI (GPT-4, GPT-3.5)
-- Google (Gemini)
-- Microsoft (Copilot)
-- Anthropic (Claude)
-- Meta (Llama)
-- Cohere
-- Mistral & Groq
+AgentHome serves as a centralized hub for AI agent development, providing developers with:
 
-### 国内平台
-- 百度 (文心一言/ERNIE)
-- 阿里 (通义千问/Qwen)
-- 腾讯 (混元)
-- 字节跳动 (豆包)
-- 360 (智脑)
-- 智谱 (GLM)
-- 讯飞 (星火)
-- 小冰
+- **Foundational Frameworks**: Core libraries like LangChain, LlamaIndex, and custom agent frameworks
+- **Production-ready Tools**: Pre-built components for common agent capabilities
+- **Complete Projects**: Full-fledged agent applications ready to deploy
+- **Learning Resources**: Tutorials and guides for building agents from scratch
 
 ---
 
-## 🚀 快速开始
+## 📁 Repository Structure
 
-### 方式 1：按领域浏览
-1. 选择你需要的领域 → [查看提示词分类](#提示词分类80-提示词)
-2. 点击进入分类
-3. 选择合适的提示词复制使用
-
-### 方式 2：使用总索引
-查看完整的提示词索引 → [prompts/README.md](./prompts/README.md)
-
----
-
-## 💡 提示词使用技巧
-
-1. **明确角色** - 告诉 AI 扮演什么角色
-2. **清晰任务** - 具体描述要完成的任务
-3. **详细要求** - 列出具体的要求和期望
-4. **格式明确** - 说明期望的输出格式
-5. **提供示例** - 如果可能，给出好的示例
-
----
-
-## 📦 其他资源
-
-### 平台特定指南
-- [国际平台提示词](./international/)
-- [国内平台提示词](./chinese/)
-
-### 开源项目
-- [开源项目收集](./opensource/)
-
-### 框架集成
-- [框架集成指南](./frameworks/)
-
-### 快速模板
-- [快速模板](./examples/)
+```
+AgentHome/
+├── 📚 frameworks/           # Foundational agent frameworks
+│   ├── langchain/           # LangChain integration and extensions
+│   ├── llamaindex/          # LlamaIndex utilities
+│   ├── agent-protocol/      # Custom agent communication protocols
+│   └── orchestration/       # Multi-agent orchestration frameworks
+│
+├── 🛠️ tools/                # Reusable tools and utilities
+│   ├── prompt-engine/       # Prompt engineering tools
+│   ├── vector-store/        # Vector database integrations
+│   ├── knowledge-base/      # Knowledge management systems
+│   └── connectors/          # External service connectors
+│
+├── 🚀 projects/             # Production-ready agent projects
+│   ├── chat-agents/         # Conversational agents
+│   ├── task-agents/         # Task automation agents
+│   ├── research-agents/     # Research and analysis agents
+│   └── workflow-agents/     # Workflow automation agents
+│
+├── 📋 templates/            # Project templates
+│   ├── agent-starter/       # Basic agent template
+│   ├── multi-agent/         # Multi-agent system template
+│   └── rag-system/          # RAG application template
+│
+└── 📖 docs/                 # Documentation and guides
+    ├── getting-started.md   # Quick start guide
+    ├── tutorials/           # Step-by-step tutorials
+    └── api-reference/       # API documentation
+```
 
 ---
 
-## 📊 项目统计
+## 🏗️ Frameworks
 
-- 提示词数量：80+
-- 支持平台：15+
-- 领域覆盖：4 大领域
-- 使用场景：100+
-
----
-
-## 🤝 贡献
-
-欢迎贡献提示词！
-
-1. Fork 本仓库
-2. 添加新的提示词到合适的分类
-3. 提交 Pull Request
+| Framework | Description | Status |
+|-----------|-------------|--------|
+| **LangChain** | Building applications with LLMs through composability | ✅ Active |
+| **LlamaIndex** | Data framework for LLM applications | ✅ Active |
+| **Custom Protocol** | Lightweight agent communication protocol | 🚧 WIP |
+| **Orchestration** | Multi-agent coordination framework | 🚧 WIP |
 
 ---
 
-## 📄 许可证
+## 🛠️ Tools & Utilities
 
-MIT License
+- **Prompt Engine**: Advanced prompt management and optimization
+- **Vector Store**: Unified interface for Pinecone, Chroma, FAISS, Milvus
+- **Knowledge Base**: Document processing and retrieval systems
+- **Connectors**: APIs, databases, and external service integrations
+
+---
+
+## 🚀 Production Projects
+
+- **Chat Assistant**: AI-powered conversational agent with memory
+- **Task Automator**: Automated task execution agent
+- **Research Agent**: Literature review and analysis agent
+- **Workflow Agent**: Business process automation
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/badhope/AgentHome.git
+
+# Navigate to project
+cd AgentHome
+
+# Start with a template
+cp -r templates/agent-starter my-agent
+cd my-agent
+npm install
+npm run start
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=badhope/AgentHome&type=Date)](https://star-history.com/#badhope/AgentHome&Date)
+
+---
+
+*Built with ❤️ by the AgentHome Team*
