@@ -1,34 +1,36 @@
-# Vector DBs - 向量数据库包装
+# Vector DBs - Vector Database Wrappers
 
-这里提供了常用向量数据库的简化包装，方便快速集成使用。
+Simplified wrappers for popular vector databases, making integration quick and easy.
 
 ---
 
-## 📁 目录
+## 📁 Directory Structure
 
 ```
 vector-dbs/
 ├── README.md
 ├── __init__.py
-├── chroma_wrapper.py    # Chroma DB
-├── pinecone_wrapper.py  # Pinecone
-└── base.py             # 基类
+├── chroma_wrapper.py    # Chroma DB (Local/File-based)
+├── pinecone_wrapper.py  # Pinecone (Cloud)
+├── faiss_wrapper.py     # FAISS (Local High-performance)
+├── milvus_wrapper.py    # Milvus (Cloud/On-premise)
+└── base.py             # Base Class
 ```
 
 ---
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### Chroma (本地)
+### Chroma (Local)
 ```python
 from vector_dbs.chroma_wrapper import ChromaWrapper
 
 db = ChromaWrapper()
-db.add_texts(["文档1", "文档2"])
-results = db.search("查询")
+db.add_texts(["Document 1", "Document 2"])
+results = db.search("query")
 ```
 
-### Pinecone (云端)
+### Pinecone (Cloud)
 ```python
 from vector_dbs.pinecone_wrapper import PineconeWrapper
 
@@ -37,12 +39,31 @@ db.upsert([("id1", vector, {})])
 results = db.query(vector)
 ```
 
+### FAISS (Local)
+```python
+from vector_dbs.faiss_wrapper import FAISSWrapper
+
+db = FAISSWrapper(dimension=1536)
+db.add_documents(embeddings, documents)
+results = db.search(query_embedding)
+```
+
+### Milvus (Cloud/On-premise)
+```python
+from vector_dbs.milvus_wrapper import MilvusWrapper
+
+db = MilvusWrapper(host="localhost", port="19530")
+db.add_documents(embeddings, contents)
+results = db.search(query_embedding)
+```
+
 ---
 
-## 📊 对比
+## 📊 Comparison
 
-| 数据库 | 类型 | 优点 | 适用场景 |
-|--------|------|------|---------|
-| Chroma | 本地/文件 | 简单易用 | 开发测试 |
-| Pinecone | 云服务 | 托管、高性能 | 生产环境 |
-| FAISS | 本地 | 高性能 | 大规模向量 |
+| Database | Type | Advantages | Use Case |
+|----------|------|------------|----------|
+| Chroma | Local/File | Easy to use, no setup | Development, testing |
+| Pinecone | Cloud | Managed, high-performance | Production |
+| FAISS | Local | Ultra-fast, memory-efficient | Large-scale vectors |
+| Milvus | Cloud/On-prem | Scalable, enterprise-grade | Enterprise applications |
